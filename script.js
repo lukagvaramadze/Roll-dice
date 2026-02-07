@@ -8,8 +8,8 @@ let livescore2 = document.querySelector(".livescore-2");
 let score1 = document.querySelector(".score-1");
 let score2 = document.querySelector(".score-2");
 let livescore = 0;
-let scoreVar1 = 80;
-let scoreVar2 = 90;
+let scoreVar1 = 0;
+let scoreVar2 = 0;
 let switchVar = false;
 let hold = document.querySelector(".hold");
 let section1 = document.querySelector(".section1");
@@ -85,3 +85,4 @@ document.addEventListener("click", function () {
 newGame.addEventListener('click', function(){
   window.location.reload();
 })
+
