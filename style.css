@@ -18,6 +18,7 @@ main {
   width: 65%;
   border-radius: 10px;
   display: flex;
+  position: relative;
 }
 
 .section1 {
@@ -166,4 +167,62 @@ main {
 .sec-active2 {
   background-color: rgba(255, 255, 255, 0.6);
   transition: background-color 1s ease;
+
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 95%;
+    height: 95vh;
+  }
+
+
+  .dice {
+    bottom: 52%;
+    width: 70px;
+    height: 70px;
+  }
+
+  
+  .roll-div {
+    bottom: -1%;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .new-game {
+    bottom: 92%;
+    font-size: 18px;
+    width: 160px;
+    height: 45px;
+  }
+
+ 
+  .player {
+    font-size: 26px;
+  }
+
+  .score {
+    font-size: 55px;
+  }
+
+  .live-score {
+    width: 120px;
+    height: 80px;
+    font-size: 15px;
+  }
+
+  .roll-dice{
+    font-size: 18px;
+    width: 130px;
+    height: 40px;
+    
+  }
+  .hold{
+    font-size: 18px;
+    width: 130px;
+    height: 40px;
+    
+  }
+  
 }
